@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, max-scale=1.0">
+    <title>Peter Parker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    #menu-bar {
+        background-color: #e81a43;
+    }
+
+    div a {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        padding: 15px;
+        display: inline-block;
+    }
+
+    ul {
+        display: inline;
+        margin-top: -4%;
+        padding: 0;
+    }
+
+    ul li {
+        display: inline-block;
+    }
+
+    ul li:hover {
+        background-color: #8f2238;
+    }
+
+    ul li:hover ul {
+        display: block;
+    }
+
+    ul li ul {
+        position: absolute;
+        width: 190px;
+        display: none;
+    }
+
+    ul li ul li {
+        background-color: #8f2238;
+        display: block;
+    }
+
+    ul li ul li a {
+        display: block !important;
+    }
+
+    ul li ul li:hover {
+        background-color: #541421;
+    }
+
+    li li li {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+</style>
+
+</head>
+
+<body class="body">
+
+    <!-- Menu -->
+    <div id="menu-bar">
+
+        <h1 class="Title"> Peter Parker </h1>
+
+        </section>
+
+        <ul>
+            <li class="menu-button">
+                <a href="#">
+                    <div class="line-bar"></div>
+                    <div class="line-bar"></div>
+                    <div class="line-bar"></div>
+                </a>
+                <ul>
+                    <li><a href="#about-me" class="font">Sobre Mim</a></li>
+                    <li><a href="#Projects" class="font">Projetos</a></li>
+                    <li><a href="#Contact" class="font">Contato</a></li>
+                </ul>
+            </li>
+        </ul>
+
+    </div>
+    <!-- End -->
+
+    <!-- Perfil -->
+    <div class="Photo"></div>
+    <div id="about-me" class="about-me">
+        <h1 class="Obv-title"> Sobre Mim: </h1>
+        <h3 class="Obv-desc"> Fotógrafo em um dos maiores jornais de Nova Iorque, o Clarim Diário.
+            Mantendo o foco principal na natureza e nos incriveis super heróis de Nova Iorque, que me dão a chance de lhes fotografar. 
+            Para contrubuir em conhecimento em minhas fotos, estudo Ciências na Empire State University (ESU).</h3>
+    </div>
+    <!-- ------ -->
+
+    <hr>
+
+    <!-- Projects -->
+    <div id="Projects" class="Projects">
+
+        <div class="job1">
+
+            <div class="job-img1"></div>
+            <h2 class="Title-job"> Parque </h2>
+            <h3 class="Job-desc"> Dando uma parada para respirar e pensar, vejo esta belíssima cena diante a mim. </h3>
+
+        </div>
+
+        <div class="job2">
+
+            <div class="job-img2"></div>
+            <h2 class="Title-job"> Selfie do Homem Aranha </h2>
+            <h3 class="Job-desc"> Em uma de minhas viagens conheci o herói de Nova Iorque, o Homem Aranha, em poucos minutos nos tornamos amigos e como lembrança, recebi esta selfie dele. 
+                Quem será por trás do traje? </h3>
+
+        </div>
+
+        <div class="job3">
+
+            <div class="job-img3"></div>
+            <h2 class="Title-job"> Tarântula </h2>
+            <h3 class="Job-desc"> Foi um desafio para mim tirar esta foto, esta tarântula vive no laboratório da Empire State University, que graças ao meu curso, fui permitido a tirar esta foto. </h3>
+
+        </div>
+
+        <div class="job4">
+
+            <div class="job-img4"></div>
+            <h2 class="Title-job"> Central Park </h2>
+            <h3 class="Job-desc"> Dando uma volta enquanto caçava pokemon, cheguei a um local que me permitia ver de longe o maravilhoso Central Park, não pude perder a oportunidade de tirar uma foto. </h3>
+
+        </div>
+
+    </div>
+    <!-- -------- -->
+
+    <!-- Contact -->
+
+    <hr>
+
+    <div id="Contact" class="Contact">
+        <div class="Titlec">
+            <h1> Contato: </h1>
+        </div>
+
+        <div class="send-me">
+
+            <label for="emailid" style="color: white;" class="label-text"> Email: </label> <br>
+            <input type="text" name="email" value="" maxlength="100" id = "emailid" placeholder="Email" class="Email-ins">
+            <br>
+            <br>
+            <label for="message" style="color: white;" class="label-text"> Mensagem: </label> <br>
+            <input type="text" name="Message" value="" maxlength="9999" id = "message"  class="send-message" placeholder="Escreva sua mensagem">
+            <br>
+            <br>
+            <input type="submit" value="Enviar Mensagem" class="Button-send">
+
+        </div>
+
+        <div class="Adress"> 
+
+            <h1> Contato Profissional: </h1>
+
+            <h3> 
+                Email profissional: Peter_parker@hotmail.com
+                <br> <br>
+                Fone: +55 (47) 9 8846-5139
+                <br> <br>
+                Empresa: Clarim Diário localizado na 39° Rua e Segunda Avenida. 
+                <br> <br>
+                Cidade habitual: Nova Iorque
+            </h3>
+
+        </div>
+
+            <a class="button-top" href="#">
+            </a>
+
+        <div class="Social-media ">
+
+            <a class="Instagram" href="https://www.instagram.com/triches_luiz/" target="_blank"></a>
+            <a class="Twitter" href="https://twitter.com/luiz_triches" target="_blank"></a>
+            <a class="Whatsapp" href="#" target="_blank"></a>
+            <a class="Github" href="https://github.com/LuizTriches" target="_blank"></a>
+
+        </div>
+
+    </div>
+
+
+
+
+</body>
+
+</html>
+<!-- Made by Luiz Guilherme Triches -->

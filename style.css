@@ -1,0 +1,373 @@
+* {
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 11px;
+}
+
+::-webkit-scrollbar-track {
+    background: #252525;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #e81a43;
+    border-radius: 50px;
+}
+
+
+.body {
+    background-color: #403d3d;
+    background-image: url(wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+
+}
+
+#menu-bar {
+    height: 3.5vw;
+    border-radius: 5px;
+    height: 4em;
+}
+
+.menu-button {
+    cursor: pointer;
+    width: 5em;
+    height: 3.9em;
+    border-radius: 5px;
+    position: absolute;
+
+}
+
+.font {
+    font-family: 'Cabin Sketch', cursive;
+}
+
+.line-bar {
+    width: 32px;
+    height: 2px;
+    margin: 8px;
+    transition: 0.3s;
+    border: 1px solid white;
+    background-color: white;
+    margin-top: 0em;
+    display: block;
+    float: left;
+
+}
+
+.Title {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #e3e0e0;
+    font-size: 3em;
+    float: right;
+    margin-right: 14em;
+    margin-top: -0.3%;
+    font-family: 'Cabin Sketch', cursive;
+
+}
+
+.Photo {
+    float: left;
+    height: 25em;
+    width: 25em;
+    margin: 5% 2%;
+    border-radius: 100%;
+    background-image: url(Peter.jpg);
+    background-position: center;
+    background-size: 145%;
+    background-repeat: no-repeat;
+    border: #0a0000 1px solid;
+    box-shadow: 1px 1px 1px 1px;
+
+}
+
+.about-me {
+    border: 1px solid black;
+    float: right;
+    margin: 3% 2%;
+    width: 68em;
+    height: 25em;
+    background-color: #e81a43;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 2px 2px 2px 1px black;
+
+}
+
+.Obv-title {
+    text-align: center;
+    margin: 5%;
+    height: auto;
+    font-family: 'Cabin Sketch', cursive;
+    color: white;
+    font-size: 40px;
+    text-justify: auto;
+}
+
+.Obv-desc {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    width: 80%;
+    font-size: 20px;
+}
+
+.about-me:hover,
+.Projects:hover {
+    transform: scale(1.01);
+    transition: 0.3s;
+
+}
+
+hr {
+    clear: both;
+    border: 1px solid transparent;
+    height: 0px;
+}
+
+.Projects {
+    border: 1px solid black;
+    width: 98em;
+    height: 40em;
+    margin: 5% 2%;
+    background-color: #e81a43;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 2px 2px 2px 1px black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.job1,
+.job2,
+.job3,
+.job4 {
+    width: 24.87%;
+    height: 100%;
+    float: right;
+    position: relative;
+    border-right: solid transparent 2px;
+}
+
+.job-img1,
+.job-img2,
+.job-img3,
+.job-img4 {
+    width: 100%;
+    height: 60%;
+    border-radius: 20px;
+}
+
+.job-img4 {
+    background-image: url(jobimg1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 190%;
+}
+
+.job-img3 {
+    background-image: url(jobimg2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 190%;
+
+}
+
+.job-img2 {
+    background-image: url(jobimg3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+
+}
+
+.job-img1 {
+    background-image: url(jobimg4.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 190%;
+
+}
+
+.Title-job {
+    text-align: center;
+    color: white;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 30px;
+}
+
+.Job-desc {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-justify: auto;
+}
+
+.Contact {
+
+    border: 1px solid;
+    width: 100%;
+    height: 25em;
+    background-color: #e81a43;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.Titlec {
+    text-align: center;
+    font-family: 'Cabin Setch', cursive;
+    color: #e3e0e0;
+    font-size: 20px;
+    height: auto;
+    width: min-content;
+    margin-left: auto;
+    margin-right: 47%;
+    border: transparent 1px;
+}
+
+.send-me {
+
+    border: 1px transparent white;
+    float: right;
+    width: 30%;
+    height: 70%;
+    margin-top: -1%;
+}
+
+.label-text {
+    font-family: 'Cabin Setch', cursive;
+    color: white;
+    font-size: 17px;
+    
+}
+
+.Email-ins {
+    width: 60%;
+    height: 20%;
+    border-radius: 8px;
+    background-color: #403d3d;
+    font-size: 15px;
+    color: white;
+}
+
+.send-message {
+    width: 60%;
+    height: 30%;
+    border-radius: 8px;
+    background-color: #403d3d;
+    font-size: 15px;
+    color: white;
+    text-align:start;
+    display: inline-block;
+
+}
+
+.Button-send {
+    height: 10%;
+    width: 30%;
+    border-radius: 10px;
+    cursor:pointer;
+    box-shadow: 1px 1px 1px;
+    background-color: #ffffff;
+    color: black;
+    font-family: 'Cabin Setch', cursive;
+}
+
+.Button-send:hover {
+    background-color: #a3a3a3;
+    transform: scale(1.05);
+    transition: 0.5s;
+    box-shadow: 2px 2px 2px;
+}
+
+.Adress {
+    border: 1px transparent white;
+    color: white;
+    float: left;
+    width: 30%;
+    height: 75%;
+    margin-top: -3%;
+    font-style: italic;
+    font-family: 'Cabin Setch', cursive;
+    margin-left: 4%;
+
+}
+
+
+.button-top {
+    background-image: url(back-top.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    width: 2%;
+    height: 9%;
+    margin-left: -10%;
+    margin-right: auto;
+    margin-top: 2%;
+    border-radius: 100%;
+    box-shadow: 2px black 2px black 2px black;
+
+}
+
+.button-top:hover {
+    background-color: #b52f49;
+    transform: scale(1.2);
+    transition: 0.5s;
+    
+}
+
+.Social-media {
+    border: white;
+    float: left;
+    width: 14%;
+    height: 25%;
+    margin: 11% 0 0 8%;
+}
+
+.Instagram {
+    background-image: url(Instagram-icon.png);
+    border: 1px transparent white;
+    width: 10%;
+    height: 18%;
+    float: left;
+    background-repeat: no-repeat;
+}
+
+.Twitter {
+    background-image: url(Twitter-icon.png);
+    border: 1px transparent white;
+    width: 12%;
+    height: 18%;
+    float: left;
+    background-repeat: no-repeat;
+}
+
+.Whatsapp {
+    background-image: url(Whatsapp-icon.png);
+    border: 1px transparent white;
+    width: 11%;
+    height: 18%;
+    float: left;
+    background-repeat: no-repeat;
+}
+
+.Github {
+    background-image: url(Github-icon.png);
+    border: 1px transparent white;
+    width: 11%;
+    height: 18%;
+    float: left;
+    background-repeat: no-repeat;
+}
+
+
